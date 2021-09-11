@@ -43,7 +43,7 @@ local function statusline(sections, is_focused)
       half_passed = true
     end
     -- provide section_separators when statusline is in focus
-    if is_focused then
+    if true then
       -- component separator needs to have fg = current_section.bg
       -- and bg = adjacent_section.bg
       local previous_section = status_builder[i - 1] or {}
